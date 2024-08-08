@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "indb-web"
+version = "1.0.0"
+description = "A modern data platfrom."
+dependencies = [
+    "Flask==3.0.3",
+    "Flask-Migrate==4.0.7",
+    "Flask-SQLAlchemy==3.1.1",
+    "python-dotenv==1.0.1",
+]

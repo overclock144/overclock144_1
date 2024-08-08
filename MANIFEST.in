@@ -1,0 +1,6 @@
+include LICENSE.txt
+include README.md
+recursive-include migrations *
+recursive-include indb *
+recursive-include indb-frontend *
+recursive-exclude tests *

@@ -1,0 +1,13 @@
+{
+    "extends": [
+        "next/core-web-vitals",
+        "prettier",
+        "plugin:testing-library/react",
+        "plugin:jest-dom/recommended"
+    ],
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "error",
+        "no-console": "error"
+    }
+}
